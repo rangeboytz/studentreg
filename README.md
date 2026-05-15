@@ -1,0 +1,2 @@
+# studentreg
+admin register students
