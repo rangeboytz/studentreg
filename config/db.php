@@ -4,7 +4,7 @@ $host = getenv('MYSQLHOST') ?: getenv('DB_HOST') ?:'localhost';
 $dbname = getenv('MYSQLDATABASE') ?: getenv('DB_HOST') ?:'student_system';
 $username = getenv('MYSQLUSER') ?:getenv('DB_HOST') ?: 'root';
 $password = getenv('MYSQLPASSWORD') ?: getenv('DB_HOST') ?:'';
-$port = getenv('MYSQLPORT') ?:8080;
+$port = getenv('MYSQLPORT') ?:3306;
 
 
 try {
